@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Front Row Coders</title>
+
+  <!-- Bootstrap core CSS -->
+  <!-- change to match ur files -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- start collapsing navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+     <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">YOGA STATE OF MIND</a>
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">Menu</button>
+  </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>
+            <li><a href="yoga gallery.html">YOGA GALLERY</a></li>
+            <li><a href="instructors.html">INSTRUCTORS</a></li>
+            <li class="active"><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+   </div> <!-- end collapsing navigation bar -->
+    <br><br>
+    
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 offset-md-6 text-center">
+          <div id="offer"><p>Trial Class for $10!</p></div>
+        </div><!--- col div-->
+  </div> <!--- row div-->
+  
+  <div class="row">
+      <div class="col-md-4 text-center" id="inst-schedule">
+          <h3>Check the schedule</h3>
+          <select id= "selectInstructor">
+            <option>Choose...</option>
+            <option value="1">Gayatri Devi</option>
+            <option value="2">John Smith</option>
+            <option value="3">Vasavi Rai</option>
+            <option value="4">Stephanie Wren</option>
+            <option value="5">Gladis Armstrong</option>
+            <option value="6">Arnold Lifter</option>
+        </select>
+         <button class="btn btn-md" onclick="checkSchedule()">Schedule</button>
+        <br><br>
+        <div id="weekly-schedule"></div>
+        <br><br> 
+       </div> <!--- col div-->
+    </div> <!--- row div-->
+    
+    <div class="row">
+     <div class="col-md-4 text-center location">
+        <h3 class="text-center">Locations</h3>
+        <p>We have 3 locations:<br> Mid Manhattan at the 5th Avenue 
+      <br>Inwood Mall on 75th Street
+      <br>Kingbridge Armory in the Bronx </p>
+   </div> <!--- col div-->  
+</div> <!--- row div-->
+  
+ 
+ 
+  <h2 class="text-center">Contact Us</h2>
+    <!-- start horizontal form -->
+    <form class="form-horizontal">
+    
+    <!-- added -->
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="inputName">Name</label>
+      <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputName" placeholder="Name">
+      </div>
+    </div>
+    <!-- added -->
+    
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="inputEmail">Email</label>
+      <div class="col-sm-10">
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+    </div>
+    </div>
+    
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="selectInstructor">Instructor</label>
+      <div class="col-sm-10">
+      <select class="form-control">
+        <option >Choose...</option>
+        <option>Gayatri Devi</option>
+        <option>John Smith</option>
+        <option>Vasavi Rai</option>
+        <option>Stephnie Wren</option>
+        <option>Gladis Armstrong</option>
+        <option>Arnold Lifter</option>
+        
+      </select>
+       </div>
+     </div> 
+      
+     <div class="form-group">  
+        <label class="col-sm-2 control-label" for="inputComments">Comments</label>
+        <div class="col-sm-10">
+        <textarea id="inputComments" class="form-control" ></textarea>
+        </div>
+     </div>
+    
+    <div class="form-group"> 
+      <div class="col-sm-7 col-offset-5">
+      <input class="btn btn-default" type="submit" value="submit">
+      </div>
+      </div>
+</div>      
+  </form>
+  </div>
+   
+  <!--- div for giving instructor schedule-->
+  
+  
+  
+ 
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- links to you jquery stuff -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/schedule.js"></script>
+  <script src="js/yoga.js"></script>
+ 
+
+</body>
+
+</html>

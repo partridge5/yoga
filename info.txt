@@ -1,0 +1,47 @@
+Some quotes for yoga
+
+Healthy Life, Healthy Body, Healthy Mind
+
+Yoga is the practice of quieting the mind
+
+Yoga is the practice of tolerating the consequences of 
+being yourself -Bhagvad Gita
+
+Yoga is not to be performed Yoga is to be lived
+
+Yoga teaches you how to listen to your body
+
+Yoga is the journey of the self,to the self, through the self
+
+--------------Fonts-----------------
+Following fonts have been imported from Google fonts:
+font-family: 'Merriweather', serif;
+font-family: 'Courgette', cursive;
+font-family: 'Rancho', cursive;
+
+------------color scheme----------
+#E6CEB3 //
+#DBBFDE ///lavender family
+#FBD9BE //pinkish family
+#E0E5E4 //light gray bluish family
+#4E8581 //blue family
+#256E69 //dark-bluish
+
+#361215 //contrasting reddish font color
+
+used /color.adobe.com
+complimentary colors
+#E5E5E5 //light gray
+#FFD58B //light yellow
+#FFD17E //yellow shade
+#346FB2 //dark bluish gray
+#7EBAFF //light blue
+
+
+$(document).ready(function() { 
+  $('.cards').click(function(){
+    $(this).addClass('');
+   });
+  });
+  
+  <img id="logo" src="image/logo.svg">
