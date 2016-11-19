@@ -1,0 +1,349 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Courgette|Merriweather:300i|Rancho');
+
+body {
+    background-color: #E5E5E5;
+    
+}
+/* homepage info paragraphs */
+.info {
+    padding-top:30px;
+    padding-bottom:20px;
+    font-size:20px;
+    color: white;
+}
+
+.maintitle {
+    color: white;
+}
+.transparent{
+  background:rgba(86, 154, 205, 0.5);
+  
+}
+
+.location {
+    border:3px solid #BFAAAC;
+    margin-top:40px;
+    
+}
+
+.col-centered {
+    float:none;
+    margin:0 auto;
+    text-align: center;
+}
+
+/* div for jquery effect */
+
+#offer {
+    height:120px;
+    width:350px;
+    background-color:#E0ED4A;
+    border-radius:50px;
+    font-family:monospace;
+    font-size:35px;
+    font-weight:200;
+    text-align:center;
+    padding:20px;
+    display:inline-block;
+    margin-top:20px;
+}
+
+
+
+/* background-color Taup 
+.container-fluid {
+    margin: auto;
+    background-color: #FFFFEE;
+}
+*/
+
+/* homepage info add to original start */
+.homerow
+{
+    margin: 0;
+    border: dotted;
+    background-color: red;
+}
+/* homepage info add to original end */
+
+/* navbar background color purple */
+
+/* navbar styling */ 
+.navbar {
+    background-color: #BFAAAC;
+    color: #fffff;
+/*    padding:15px 15px 15px 10px; */
+    
+   }
+
+@media all and (max-width: 600px) {
+  .mobhide {
+    display: none;
+  }
+}
+
+@media (max-width: 978px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed,
+.video-responsive video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.navbar-brand a {
+    color: #fffff;
+}
+
+#myNavbar ul {
+    color: #fffff; 
+}
+
+#logo {
+height: 100%;
+*margin-top: -10px;*
+margin-right: 5 px;
+}
+
+/* When mouse over the link, change its background color to LightGreen.*/
+li a:hover {
+    background-color: #5DF449;
+}
+
+/* When click the link, change its background color to red.*/
+li a:active {
+    background-color: red;
+}
+
+
+/* vertical & horizontal forms */
+/*limit width */
+.form-group {
+    margin: 40px;
+}
+
+/* horizontal forms */
+/*limit width */
+.form-horizontal {
+    margin: 10%;
+}
+
+/* colors font in carousel img 
+.orange {
+    color: ##fcea25;
+    font-size-adjust: 20px;
+}
+*/
+
+/*highlight carousel img text */
+p span { 
+   color: #FFD58B; 
+   font: bold 18px/36px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(160, 235, 247);  /*fallback color */
+   background: rgba(160, 235, 247, 0.3);
+   padding: 10px; 
+}
+
+
+/* centers img in carousel  */
+/*.carousel-inner img {
+  margin: auto;
+  padding-top: 50px;
+}
+*/
+
+
+.carousel img {
+    min-width: 100%;
+/*    width: 100%\9;  */
+    padding-top: 50px;
+    height: auto;
+} 
+/* end choose a way to center img in carousel 
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}*/
+
+/*  background image for jumbotron on home page */
+
+#jumbo-img {
+    background-image: url("../image/yoga-background2-small.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/*  jumbotron on contact page */
+#jumbo-appnt {
+    background-image: url("../image/sunset-small.jpg");
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    z-index:5;
+}
+
+#jumbo-appnt h2 {
+    font-family:'Rancho', cursive, sans-serif;
+    font-size: 80px;
+    font-weight:200;
+    color: #43DECC;
+    display: inline;
+    padding-top:120px;
+   }
+ /* divs on instructors page */  
+ 
+ #instructor {
+     background-color: #AABFBD;
+     padding-top:-10px;
+     margin-top: -40px
+     
+ }
+ 
+ #inst-schedule{
+     border: 3px solid #BFAAAC;
+ }
+ 
+ .inst-1 {
+     border: 2px ridge #BFAAAC;
+     padding-bottom: 20px;
+    
+ } 
+ 
+ .inst-1  h2, h3 {
+       color:#361215;
+ }
+    
+.inst-1 img{
+    border: .5px solid #361215 ;
+   }
+
+.inst-1 button{
+   background-color: #BFAAAC;
+   margin-top: 15px;
+   color: #361215;
+   border-color: #361215;
+   }
+   
+  #input-btn {
+      background-color: #BFAAAC;
+   color: #361215;
+   border-color: #361215;
+  }
+.inst-1 button:hover button:active{
+   background-color: #BFAAAC;
+    border-color: #361215;
+}
+ /* modals styling on class schedule page */ 
+ 
+.modal .btn-default {
+    background-color: #BFAAAC;
+    border-color: #361215;
+    }
+
+/* instructors schedule on contact.html*/
+
+ #inst-schedule button{
+   background-color: #BFAAAC;
+   color: #361215;
+   border-color: #361215;
+   }
+   
+#weekly-schedule {
+  border: solid #361215 2px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.gayatri {
+background-color: red;
+}
+
+ #inst-schedule{
+     border: 3px solid #BFAAAC;
+ }
+ 
+
+
+
+@media only screen and (min-width: 699px) {
+    #jumbo-img {
+        padding-top: 150px;
+        padding-bottom: 200px;}
+        
+    }
+/*  background image for website 
+body:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("image/yoga background.jpg");
+    background-image: url("http://s0.geograph.org.uk/geophotos/03/97/06/3970669_1dea2351.jpg");
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -2;
+*/
+
+/* view port resizing stuff 
+@media only screen and (max-width: 699px) {
+    #header-img {
+        display: none;
+        margin: 15px;
+    }
+    }
+    @media only screen and (min-width: 699px) and (max-width: 1024px) {
+        #ride {
+            margin-top: 15px;
+            background-color: forestgreen;
+        }
+    }
+        @media only screen and (min-width: 1024px) {
+            #header-img {margin-top: 15px;
+        }
+    }*/
+    
+/* div styling for instructors page */
+
+
+
+
