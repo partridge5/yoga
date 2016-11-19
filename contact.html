@@ -36,7 +36,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
      <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">YOGA STATE OF MIND</a>
+        <a class="navbar-brand" href="index.html"><img id="logo" class="pull-left" src="image/logo.svg">YOGA STATE OF MIND</a>
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">Menu</button>
   </div>
@@ -57,13 +57,15 @@
   
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-4 offset-md-6 text-center">
+    <div class="col-md-6 col-centered">
           <div id="offer"><p>Trial Class for $10!</p></div>
         </div><!--- col div-->
   </div> <!--- row div-->
-  
+</div> <!--- container-fluid-->
+<br>
+<div class="container-fluid">  
   <div class="row">
-      <div class="col-md-4 text-center" id="inst-schedule">
+      <div class="col-md-6 col-centered" id="inst-schedule">
           <h3>Check the schedule</h3>
           <select id= "selectInstructor">
             <option>Choose...</option>
@@ -80,22 +82,24 @@
         <br><br> 
        </div> <!--- col div-->
     </div> <!--- row div-->
-    
+  </div> <!--- container-fluid-->
+ <br>
+ <div class="container-fluid">    
     <div class="row">
-     <div class="col-md-4 text-center location">
+     <div class="col-md-6 col-centered location">
         <h3 class="text-center">Locations</h3>
         <p>We have 3 locations:<br> Mid Manhattan at the 5th Avenue 
       <br>Inwood Mall on 75th Street
       <br>Kingbridge Armory in the Bronx </p>
    </div> <!--- col div-->  
-</div> <!--- row div-->
+  </div> <!--- row div-->
+ </div> <!--- container-fluid-->  
+ 
+<div class="container-fluid"> 
   
- 
- 
-  <h2 class="text-center">Contact Us</h2>
     <!-- start horizontal form -->
     <form class="form-horizontal">
-    
+     <h2 class="text-center">Contact Us</h2>
     <!-- added -->
     <div class="form-group">
       <label class="col-sm-2 control-label" for="inputName">Name</label>
@@ -137,12 +141,11 @@
     
     <div class="form-group"> 
       <div class="col-sm-7 col-offset-5">
-      <input class="btn btn-default" type="submit" value="submit">
+      <input class="btn btn-default" type="submit" value="submit" id="input-btn">
       </div>
       </div>
-</div>      
   </form>
-  </div>
+</div>
    
   <!--- div for giving instructor schedule-->
   
